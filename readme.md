@@ -1,6 +1,6 @@
 # strpad
 
-> Combine left right and center pad modules in lack of a working alternative
+> Combine left, right and center pad modules in lack of a working alternative
 
 [![Travis Build Status](https://img.shields.io/travis/jneidel/strpad.svg?style=flat-square)](https://travis-ci.org/jneidel/strpad)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-green.svg?style=flat-square)](https://github.com/jneidel/strpad/blob/master/licence)
@@ -19,41 +19,61 @@ $ npm install strpad
 ```js
 const strpad = require( "strpad" );
 
-strpad.left( "123", 5 );
-//=> "  123"
+strpad.left( "foo", 5 );
+//=> "  foo"
 
-strpad.right( "123", 5 );
-//=> "123  "
+strpad.right( "foo", 5 );
+//=> "foo  "
 
-strpad.center( "123", 5 );
-//=> " 123 "
+strpad.center( "foo", 5 );
+//=> " foo "
+
+/* With filler: */
+
+strpad.left( "bar", 5, "-" );
+//=> "--bar"
+
+strpad.right( "bar", 5, "-" );
+//=> "bar--"
+
+strpad.center( "bar", 5, "-" );
+//=> "-bar-"
 ```
 
 ## API
 
-### strpad.left( str, padding )
+### strpad.left( str, padding, [filler] )
 
 ```js
-strpad.left( "123", 5 );
-//=> "  123"
+strpad.left( "foo", 5 );
+//=> "  foo"
+
+strpad.left( "bar", 5, "-" );
+//=> "--bar"
 ```
 
 See original module [left-pad](https://github.com/stevemao/left-pad).
 
-### strpad.right( str, padding )
+### strpad.right( str, padding, [filler] )
 
 ```js
-strpad.right( "123", 5 );
-//=> "123  "
+strpad.right( "foo", 5 );
+//=> "foo  "
+
+strpad.right( "bar", 5, "-" );
+//=> "bar--"
 ```
 
 See original module [right-pad](https://github.com/MatthewNPM/right-pad).
 
-### strpad.center( str, padding )
+### strpad.center( str, padding, [filler] )
 
 ```js
-strpad.center( "123", 5 );
-//=> " 123 "
+strpad.center( "foo", 5 );
+//=> " foo "
+
+strpad.center( "bar", 5, "-" );
+//=> "-bar-"
 ```
 
 See original module [@fav/text.pad](https://github.com/sttk/fav-text.pad).
