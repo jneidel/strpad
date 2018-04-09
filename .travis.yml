@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "9"
+  - "8"
+  - "7"
+notifications:
+  email:
+    recipients:
+      - jneidel@outlook.com
+    on_success: never
+    on_failure: always
