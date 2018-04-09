@@ -1,6 +1,6 @@
 {
   "name": "strpad",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Combine left, right and center pad modules in lack of a working alternative",
   "repository": "jneidel/strpad",
   "license": "MIT",
