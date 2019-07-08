@@ -1,4 +1,10 @@
-exports.left = require( "left-pad" );
-exports.right = require( "right-pad" );
-exports.center = require( "@fav/text.pad" );
+exports.left = ( str, n, filler ) => {
+  return String( str ).padStart( n, filler )
+}
+
+exports.right = ( str, n, filler ) => {
+  return String( str ).padEnd( n, filler )
+}
+
+exports.center = require( "@fav/text.pad" )
 
