@@ -20,7 +20,7 @@
     "node": ">=8"
   },
   "dependencies": {
-    "@fav/text.pad": "^1.0.1"
+    "@fav/text.pad": "^1.0.3"
   },
   "devDependencies": {
     "ava": "latest"
