@@ -1,6 +1,6 @@
 {
   "name": "strpad",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Combine left, right and center pad modules in lack of a working alternative",
   "repository": "jneidel/strpad",
   "license": "GLPv3",
