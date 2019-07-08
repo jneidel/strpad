@@ -54,7 +54,7 @@ strpad.left( "bar", 5, "-" );
 //=> "--bar"
 ```
 
-See original module [left-pad](https://github.com/stevemao/left-pad).
+See bultin function: [String.prototype.padStart()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart).
 
 ### strpad.right( str, padding, [filler] )
 
@@ -66,7 +66,7 @@ strpad.right( "bar", 5, "-" );
 //=> "bar--"
 ```
 
-See original module [right-pad](https://github.com/MatthewNPM/right-pad).
+See builtin function: [String.prototype.padEnd()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd).
 
 ### strpad.center( str, padding, [filler] )
 
@@ -78,7 +78,7 @@ strpad.center( "bar", 5, "-" );
 //=> "-bar-"
 ```
 
-See original module [@fav/text.pad](https://github.com/sttk/fav-text.pad).
+See original module: [@fav/text.pad](https://github.com/sttk/fav-text.pad).
 
 ## Test
 
