@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Combine left, right and center pad modules in lack of a working alternative",
   "repository": "jneidel/strpad",
-  "license": "MIT",
+  "license": "GLPv3",
   "author": {
     "name": "Jonathan Neidel",
     "email": "jneidel@outlook.com",

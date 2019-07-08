@@ -3,8 +3,10 @@
 > Combine left, right and center pad modules in lack of a working alternative
 
 [![Travis Build Status](https://img.shields.io/travis/jneidel/strpad.svg?style=flat-square)](https://travis-ci.org/jneidel/strpad)
-[![Licence MIT](https://img.shields.io/badge/licence-MIT-green.svg?style=flat-square)](https://github.com/jneidel/strpad/blob/master/licence)
+[![Licence GPLv3](https://img.shields.io/badge/licence-GPLv3-green.svg?style=flat-square)](https://github.com/jneidel/strpad/blob/master/licence)
 [![Npm Downloads](https://img.shields.io/npm/dw/strpad.svg?style=flat-square)](https://www.npmjs.com/package/strpad)
+
+See [String.prototype.padStart()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart) (left) and [String.prototype.padEnd()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd) (right) for builtin functions.
 
 ## Install
 
@@ -86,6 +88,5 @@ $ npm run test
 
 ## License
 
-MIT © [Jonathan Neidel](http://jneidel.com)
+GPLv3 © [Jonathan Neidel](http://jneidel.com)
 
-Excludes the original modules.
